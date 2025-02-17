@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">Zomato Clone</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Bar -->
+    <section class="search">
+        <input type="text" id="searchBox" placeholder="Search for restaurants...">
+        <button onclick="searchRestaurants()">Search</button>
+    </section>
+
+    <!-- Restaurant Listings -->
+    <section class="restaurants">
+        <div class="restaurant-card">
+            <img src=" https://source.unsplash.com/300x200/?restaurant,food" alt="Restaurant">
+            <h3>Restaurant 1</h3>
+            <p>⭐ 4.5</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="restaurant-card">
+            <img src="https://source.unsplash.com/300x200/?food,hotel" alt="Restaurant">
+            <h3>Restaurant 2</h3>
+            <p>⭐ 4.2</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="restaurant-card">
+            <img src="https://source.unsplash.com/300x200/?dining,cafe" alt="Restaurant">
+            <h3>Restaurant 3</h3>
+            <p>⭐ 4.7</p>
+            <button>View Details</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
